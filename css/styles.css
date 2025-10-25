@@ -1,0 +1,20 @@
+/* Reset simple */
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;line-height:1.5;color:#0b1220;background:#f4f6f8}
+.container{max-width:1000px;margin:0 auto;padding:20px}
+.site-header{background:#07263a;color:white}
+.site-header .container{display:flex;align-items:center;justify-content:space-between}
+.logo{height:56px}
+nav a{color:white;margin-left:18px;text-decoration:none}
+.hero{padding:60px 0;background:linear-gradient(90deg,#0b3a57 0%,#0f577c 100%);color:white}
+.hero h1{font-size:2rem;margin-bottom:10px}
+.btn{display:inline-block;margin-top:12px;padding:10px 16px;background:#ffd166;color:#07263a;border-radius:8px;text-decoration:none}
+.sections{padding:36px 0}
+.cards{display:flex;gap:16px;flex-wrap:wrap}
+.card{background:white;padding:16px;border-radius:10px;box-shadow:0 4px 12px rgba(11,18,32,0.08);flex:1;min-width:220px}
+form label{display:block;margin-bottom:10px}
+input,textarea{width:100%;padding:8px;border:1px solid #d0d7de;border-radius:6px}
+button{padding:10px 14px;border:none;border-radius:8px;background:#07263a;color:white;cursor:pointer}
+.site-footer{padding:18px 0;text-align:center;color:#6b7785}
+.emergency{margin-top:12px;color:#9b1c1c}
+@media (max-width:700px){.site-header .container{flex-direction:column;gap:10px}.cards{flex-direction:column}}
